@@ -1,9 +1,9 @@
 import axios from 'axios';
-import React, { useState, useEffect } from "react";
-import Table from 'React-bootstrap/Table';
-import Container from 'React-bootstrap/Container';
-import Form from 'React-bootstrap/Form';
-import InputGroup from 'React-bootstrap/InputGroup';
+import React, { useState, useEffect } from 'react';
+import Table from 'react-bootstrap/Table';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
 import './UserSearch.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
