@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa; /* Light background color */
+  font-family: 'Arial', sans-serif;
+  color: #343a40; /* Dark gray for better readability */
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Ensure full height for centering */
+  display: flex; /* Use flexbox on the body */
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+}
+
+/* Style the form container */
+.container {
+  width: 100%; /* Full width for responsiveness */
+  max-width: 400px; /* Limit the max width */
+  padding: 20px;
+}
+
+/* Style the form */
+form {
+  background-color: #ffffff; /* White background for form */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+.form-group label {
+  font-size: 18px; /* Larger font size for labels */
+  color: #495057; /* Medium-dark gray */
+  font-weight: 600;
+}
+
+.form-control {
+  font-size: 16px; /* Larger font size for input fields */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 4px;
+}
+
+.form-control:focus {
+  border-color: #80bdff; /* Highlighted border color */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Button styles */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 16px; /* Larger font size for buttons */
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: #fff;
+}
+
+/* Bootstrap button overrides */
+.btn-primary {
+  background-color: #007bff; /* Primary blue */
+  border: none;
+}
