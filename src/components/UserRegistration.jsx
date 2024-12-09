@@ -15,6 +15,10 @@ function UserRegistration() {
     async function save(event) {
 
         event.preventDefault();
+        if (!username || !password || !marks) {
+          alert("All fields are required: Username, Password, and Marks cannot be empty.");
+          return;
+      }
         try{
             await axios.post("http://localhost:8080/save",
                 {
